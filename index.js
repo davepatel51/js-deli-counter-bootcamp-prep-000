@@ -15,14 +15,10 @@ function currentLine(current) {
     }
 }
 
-function takeANumber(line, name) {
+function takeANumber() {
   line.push(name)
-    console.log("Welcome, " + name + ". You are number " + line.length + " in line.");
-  return "Welcome, " + name + ". You are number " + line.length + " in line."
-}
 
-
-
+console.log("Welcome your number is x")
 
 function nowServing(line) {
  if (line.length === 0) {
