@@ -15,8 +15,7 @@ function currentLine(current) {
     }
 }
 
-function takeANumber() {
-  line.push(name)
+function takeANumber(line) 
 
 console.log("Welcome your number is x")
 
