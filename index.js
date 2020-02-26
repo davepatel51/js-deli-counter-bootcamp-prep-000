@@ -7,7 +7,7 @@ function currentLine(current) {
       return "The line is currently empty."
     }
     else {
-      for(var a = 0; a < current.length; a++) {
+      for(var a = 0; a <current.length; a++) {
         line += (a + 1) + ". " + current[a] + ", "
       }
       line = line.slice(0, line.length-2)
@@ -15,9 +15,12 @@ function currentLine(current) {
     }
 }
 
-function takeANumber(line) 
+function takeANumber(line) {
+  var  []
+console.log("Welcome your number is" + line )
+}
 
-console.log("Welcome your number is x")
+
 
 function nowServing(line) {
  if (line.length === 0) {
